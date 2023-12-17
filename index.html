@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>App de Gastos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>App de Gastos</h1>
+        <form id="expenseForm">
+            <input type="text" id="description" placeholder="Descripción" required>
+            <input type="number" id="amount" placeholder="Cantidad" required>
+            <button type="submit">Agregar Gasto</button>
+        </form>
+        <button id="deleteAll">Eliminar Todos</button>
+        <div id="expensesList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
